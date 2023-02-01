@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      fieldset {
+        width: 50%;
+      }
+      h1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form Đăng Ký Sở Thích</h1>
+    <form action="" method="">
+      <fieldset>
+        <table>
+          <tr>
+            <th colspan="4"><h2>SỞ THÍCH CỦA BẠN</h2></th>
+          </tr>
+          <tr>
+            <td class="rowTitle">Họ và tên</td>
+            <td><input type="text" name="name" id="name" /></td>
+          </tr>
+          <tr>
+            <td class="rowTitle">Email:</td>
+            <td><input type="email" name="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td rowspan="4" class="rowTitle">Sở thích</td>
+            <td>
+              <input type="checkbox" name="hobby" value="theThao" />Thể Thao
+            </td>
+            <td>
+              <input type="checkbox" name="hobby" value="amNhac" />Âm Nhạc
+            </td>
+            <td>
+              <input type="checkbox" name="hobby" value="docSach" />Đọc Sách
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="hobby" value="luotWeb" />Lướt Web
+            </td>
+            <td>
+              <input type="checkbox" name="hobby" value="choiGame" />Chơi Game
+            </td>
+            <td>
+              <input type="checkbox" name="hobby" value="dienAnh" />Điện Ảnh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="hobby" value="duLich" />Du Lịch
+            </td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Gửi thông tin" /></td>
+            <td><input type="reset" value="Nhập lại" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <h1>Form Đăng Ký Học Viên</h1>
+    <form action="" method="">
+      <fieldset>
+        <table>
+          <tr>
+            ĐĂNG KÝ HỌC VIÊN
+          </tr>
+          <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" name="hoTen" /></td>
+          </tr>
+          <tr>
+            <td>Ngày sinh</td>
+            <td><input type="text" name="ngaySinh" /></td>
+          </tr>
+          <tr>
+            <td>Giới tính</td>
+            <td>
+              <input type="radio" name="gioiTinh" />Nam
+              <input type="radio" name="gioiTinh" />Nữ
+            </td>
+          </tr>
+          <tr>
+            <td>Địa chỉ</td>
+            <td><textarea name="diaChi" cols="30" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td>Lớp</td>
+            <td>
+              <select name="chonLop">
+                <option value="Toan">Toán</option>
+                <option value="vatLy">Vật Lý</option>
+                <option value="hoaHoc">Hóa Học</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td rowspan="2">Điện thoại</td>
+            <td><input type="number" name="dienThoai" /></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Đăng ký" /></td>
+            <td><input type="reset" value="Nhập lại" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
