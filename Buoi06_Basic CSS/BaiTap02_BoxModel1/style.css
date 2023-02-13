@@ -1,0 +1,9 @@
+#box {
+  width: 100px;
+  background-color: thistle;
+  border: solid 10px green;
+  padding: 30px 10px;
+  margin: 20px;
+  text-align: center;
+  background-clip: content-box;
+}
