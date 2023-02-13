@@ -1,0 +1,39 @@
+.head {
+  width: 100%;
+  height: 80px;
+  background-color: cornflowerblue;
+}
+
+.headLink {
+  width: 100%;
+  height: 30px;
+  background-color: bisque;
+}
+
+.left {
+  width: 15%;
+  height: 500px;
+  background-color: blue;
+  float: left;
+}
+
+.content {
+  width: 60%;
+  height: 500px;
+  background-color: chartreuse;
+  float: left;
+}
+
+.right {
+  width: 25%;
+  height: 500px;
+  background-color: aqua;
+  float: left;
+}
+
+.footer {
+  width: 100%;
+  height: 90px;
+  background-color: darkcyan;
+  float: left;
+}
